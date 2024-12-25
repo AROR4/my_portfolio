@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Homepage.css";
+import "./homepage.css";
 
 import {
   FaLinkedin,
