@@ -1,0 +1,55 @@
+.scrollable {
+    width: 300; 
+    padding-top: 0.5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    right: 5%;
+    background-color: rgba(0, 0, 0, 0.818) ;
+    color: white;
+
+  }
+
+.heading{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: 7%;
+    
+    
+
+}
+
+.heading-1{
+    color: #ffffffaa;
+}
+/* .heading::after {
+    content: " ________";
+    font-size: 1rem; 
+    margin-left: 4px; 
+    color: #007bff;
+  } */
+  
+
+.about-content p {
+    font-size: 1rem;
+    font-family: 'poppins';
+    font-style: italic;
+    padding-bottom: 1%;
+}
+.heading-2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-bottom: 1%;
+    color: #007bff;
+}
+
+.colorgrid{
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(255, 255, 255, 0.08);
+}

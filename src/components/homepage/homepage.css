@@ -1,0 +1,95 @@
+
+  
+  #homepage{
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .bg{
+    position: absolute;
+    height: 50rem;
+    width: 50rem;
+    top: -4rem;
+    right: 0;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .name{
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .animate{
+    font-family: 'Poppins';
+    color: #ffffff;
+    transition: color 0.3s;
+    border-bottom: 2px solid #007bff; 
+    font-size: 1.6rem;
+    font-weight: 300; 
+   }
+   .tagline {
+     font-family: 'Poppins', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+     font-size: 1.6rem;
+     color: #ffffff;
+     margin-bottom: 2rem;
+   }
+  .intro-content{
+    position: absolute;
+    left: 5%;
+    display: flex ;
+    top:10rem;
+    flex-direction: column;
+    justify-items: center;
+  }
+  
+  /* Main content */
+  .main-content {
+    text-align: center;
+    margin-top: 15vh;
+    padding: 2rem;
+  }
+  
+  
+  .social-icons-1 {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+  }
+  
+  .icon {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  
+  .icon-cover{
+    transition: color 0.3s, transform 0.3s;
+    background-color: rgba(0, 0, 0, 0.545);
+  }
+  .icon-cover:hover{
+    transform: scale(1.1);
+    background-color: #007bff;
+  }
+
+  .typing-container {
+    font-size: 24px;
+    
+  }
+  
+  .animate {
+    font-weight: bold;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #fff;
+    animation:  0.7s step-end infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  

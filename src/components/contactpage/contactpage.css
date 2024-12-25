@@ -1,0 +1,216 @@
+.scrollable {
+    padding-top: 1.5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+    right: 5%;
+    background-color: rgba(0, 0, 0, 0.818) ;
+    color: white;
+
+  }
+
+.heading{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: 7%;
+   
+    
+
+}
+
+.social-icons-1 {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+
+  }
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    padding: 15px;
+    margin: 2%;
+  }
+  
+  /* Left section: Contact Info */
+  .contact-info {
+    width: 40%;
+  }
+  
+  .card {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+ 
+  }
+  
+  .card span{
+    margin: 0;
+    font-size: 25px;
+    color: #ffffffaa;
+    font-weight: bold;
+  }
+  
+  .card p {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
+  /* Right section: Social Media Icons */
+  .social-container {
+    width: 55%;
+    position: relative;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Social Media Card Style */
+  .social-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03), 0 2px 4px rgba(0, 0, 0, 0.05), 0 12px 24px rgba(0, 0, 0, 0.05), 0 -20px 30px -25px #E8FFDB inset;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  /* Custom hover and animation effects using ::before and ::after */
+  .social-card::before, .social-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-card:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-card.linkedin {
+    background-color: #0076b2;
+  }
+  
+  .social-card.twitter {
+    background-color: #1DA1F2;
+  }
+  
+  .social-card.github {
+    background-color: #181616;
+  }
+  
+  .social-card.youtube {
+    background-color: red;
+  }
+  
+  /* Social Icon Text Style */
+  .social-card p {
+    font-size: 10px;
+    color: #fff;
+    margin-top: 5px;
+  }
+  
+  .social-card:hover::before {
+    --tw-ring-color: rgba(59, 130, 246, .5); 
+    --tw-ring-offset-width: 3px;
+    --tw-ring-offset-color: #ffffff0c;
+    --tw-ring-inset: inset;
+    --tw-ring-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .social-card:hover::after {
+    --tw-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  .colorgrid{
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 1px 10px;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #ffffffaa;;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(255, 255, 255, 0.08);
+    
+  }
+  
+  .form-group textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+
+
+  .form-group textarea:focus ,
+  .form-group input:focus
+  {
+    border: none;
+    outline: none;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }

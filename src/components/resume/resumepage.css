@@ -1,0 +1,53 @@
+.scrollab {
+    width: 300; 
+    padding-top: 0.5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    right: 5%;
+    color: white;
+
+  }
+
+.heading{
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-top: 7%;
+  color: white;
+  
+
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.download-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.download-button {
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background-color: #0062cb;
+}

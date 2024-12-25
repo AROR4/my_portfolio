@@ -1,0 +1,33 @@
+.scrollable {
+    width: 300; 
+    padding-top: 0.5%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    right: 5%;
+    /* background-color: rgba(0, 0, 0, 0.818) ; */
+
+
+
+  }
+
+  .colorgrid{
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.heading{
+    font-size: 1rem;
+    font-weight: bolder;
+    padding-bottom: 1% ;
+    margin-top: 7%;
+
+}
+  
